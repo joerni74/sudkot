@@ -1,5 +1,7 @@
 package demo
 
+import sudkot.SudokuField
+
 fun getGreeting(): String {
     val words = mutableListOf<String>()
     words.add("Hello,")
@@ -10,5 +12,8 @@ fun getGreeting(): String {
 
 fun main(args: Array<String>) {
     println(getGreeting())
+
+    val field = SudokuField()
+
 }
 
