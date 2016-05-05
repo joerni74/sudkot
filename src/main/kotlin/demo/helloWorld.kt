@@ -1,6 +1,6 @@
 package demo
 
-import sudkot.SudokuField
+import sudkot.SudokuBoard
 
 fun getGreeting(): String {
     val words = mutableListOf<String>()
@@ -13,7 +13,7 @@ fun getGreeting(): String {
 fun main(args: Array<String>) {
     println(getGreeting())
 
-    val field = SudokuField()
+    val field = SudokuBoard()
 
 }
 
